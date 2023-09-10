@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function Navbar(props) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/">
         {props.title}
       </a>
@@ -39,7 +39,7 @@ export default function Navbar(props) {
             placeholder="Search"
           />
           <button
-            className="btn btn-outline-success my-2 my-sm-0"
+            className="btn btn-outline- my-2 my-sm-0"
             type="submit"
           >
             Search
